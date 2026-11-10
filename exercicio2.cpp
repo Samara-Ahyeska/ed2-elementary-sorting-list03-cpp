@@ -7,7 +7,7 @@ void selectionSortKPasses(std::vector<int>& V, int N, int k) {
         int min_idx = i; 
               for (int j = i + 1; j < N; j++) {
             if (V[j] < V[min_idx]) {
-                min_idx = j; // Atualiza o índice do menor elemento
+                min_idx = j;
             }
         }
         
